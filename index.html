@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,47 +9,63 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <!-- JQUERY -->
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <title>Loja virtual</title>
 </head>
+
 <body>
-
-<!-- navbar -->
-
-<nav class="menu-lateral">
-    <div class="logo">MINHA LOGO</div>
-    <ul>
-        <li><a href="#">Shirts</a></li>
-        <li><a href="#">Dresses</a></li>
-        <li><a href="#" class="jeans">Jeans <span class="material-symbols-outlined"> expand_more</span></a>
-            <ul class="subtitulojeans">
-                <li><a href="#">Skinny</a></li>
-                <li><a href="#">Relaxed</a></li>
-                <li><a href="#">Bootcut</a></li>
-                <li><a href="#">Straight</a></li>
+    
+ <div class="container">
+    <div class="div1">
+        <div class="menu-lateral">
+            <div class="logo">LOGO</div>
+            <ul>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Dresses</a></li>
+                <button class="dropdown-btn">Jeans
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <a href="#">Skinny</a>
+                    <a href="#">Relaxed</a>
+                    <a href="#">Bootcut</a>
+                </div>
+            </li>
+            <li><a href="#">Jackets</a></li>
+            <li><a href="#">Gymwear</a></li>
+            <li><a href="#">Blazers</a></li>
+            <li><a href="#">Shoes</a></li>
+    
             </ul>
-        </li>
-        <li><a href="#">Jackets</a></li>
-        <li><a href="#">Gymwear</a></li>
-        <li><a href="#">Blazers</a></li>
-        <li><a href="#">Shoes</a></li>
-    </ul>
-     
-
-    <div class="espacamento">
-        <div class="footer-menu">
-            <a href="#">Contact</a>
-            <a href="#">Newsletter</a>
-            <a href="#">Subscribe</a>
+    
+            <div class="espacamento">
+                <div class="footer-menu">
+                    <a href="#">Contact</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">Subscribe</a>
+                </div>
+    
+            </div>
         </div>
-         
     </div>
-</nav>
+    <div class="div2">
+        <div class="jeans">
+            <a href="#" class="logo">Jeans</a>
+            <div class="header-right">
+                <a class="active" href="#home"><span class="material-symbols-outlined">search</span></a>
+                <a href="#contact"> <span class="material-symbols-outlined">shopping_cart</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="div3">
+        
+    </div>
+ </div>
 
 
 
-<!-- fim navbar -->
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
