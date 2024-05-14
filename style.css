@@ -269,13 +269,13 @@ padding: 5px;
 }
 
 
+/* FORM SUBSCRIBE */
+
 form {
-  border: 4px solid #020202;
   padding-top: 50px;
   margin-top: 40px;
   background-color: #000;
-  padding-left: 20px; /* Adicionando espaçamento à esquerda */
-  padding-right: 20px; /* Adicionando espaçamento à direita */
+  padding-left: 20px; 
 }
 
 .form h2,.form p{
@@ -314,6 +314,166 @@ input[type=submit]:hover {
   background-color: #8f8e8e;
 }
 
+/* FIM FORM SUBSCRIBE */
+
+/* FOOTER */
+
+footer {
+  background-color: #CCCCCC;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* FOOTER ESQUERDA */
+
+.footer-left,
+.footer-middle,
+.footer-right {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-left form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #CCCCCC;
+ 
+}
+
+#form-container {
+  width: 350px;
+  margin: auto;
+}
+
+.footer-left .contact,
+.subcontact{
+  color: #000;
+}
+
+.footer-left .contact{
+  padding-top: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text1"],
+input[type="text2"],
+input[type="email1"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  border-style: dotted;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+input[type="submit1"] {
+  background-color: #000000;
+  color: white;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type="submit1"]:hover {
+  background-color: #8f8e8e;
+}
+
+/* FIM FOOTER ESQUERDA */
+
+
+/* FOOTER MEIO */
+
+.footer-middle ul {
+  list-style: none;
+  margin: 50px ;
+  padding: 0;
+}
+
+.footer-middle .about{
+  margin-top: 60px;
+  color: #000;
+}
+
+.footer-middle ul li {
+  margin-bottom: 15px;
+}
+
+.footer-middle ul li a{
+  color: #000;
+  
+}
+
+/* FIM FOOTER MEIO */
+
+
+/* FOOTER DIREITA */
+
+.footer-right .icons{
+  color: #000;
+}
+
+.footer-right .store{
+  padding-top: 60px;
+  color: #000;
+}
+
+.footer-right p {
+  margin: 5px 0;
+  padding-top: 30px;
+  color: #000;
+}
+
+.payment-methods .credit{
+  padding-top: 100px;
+  color: #000;
+}
+
+.payment-methods p{
+  color: #000;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+
+
+.social-media a {
+  margin-right: 5px;
+  color: #000;
+}
+
+.footer-right .social-media{
+  padding-top: 20px;
+}
+
+/* FIM FOOTER DIREITA */
+
+
+/* FIM FOOTER GERAL */
+
+
+.copy{
+  padding: 20px;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+}
 
 
 
