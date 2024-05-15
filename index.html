@@ -9,18 +9,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- JQUERY -->
-  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-    crossorigin="anonymous"></script>
+
   <title>Loja virtual</title>
 </head>
 
 <body>
-  
+
+ 
   <!-- MENU LATERAL -->
   <div class="container">
     <div class="div1">
       <div class="menu-lateral">
+       
         <div class="logo">LOGO</div>
         <ul>
           <li><a href="#">Shirts</a></li>
@@ -50,56 +50,23 @@
         </div>
       </div>
     </div>
-<!--
-    <div class="container-mobile" onclick="toggleMenu()">
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
-    </div>
-    
-    <div class="container" id="menuContainer">
-      <div class="container">
-        <div class="div1">
-          <div class="menu-lateral">
-            <div class="logo">LOGO</div>
-            <ul>
-              <li><a href="#">Shirts</a></li>
-              <li><a href="#">Dresses</a></li>
-              <button class="dropdown-btn">Jeans
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-container">
-                <a href="#">Skinny</a>
-                <a href="#">Relaxed</a>
-                <a href="#">Bootcut</a>
-              </div>
-              </li>
-              <li><a href="#">Jackets</a></li>
-              <li><a href="#">Gymwear</a></li>
-              <li><a href="#">Blazers</a></li>
-              <li><a href="#">Shoes</a></li>
-            </ul>
-    
-            <div class="espacamento">
-              <div class="footer-menu">
-                <a href="#">Contact</a>
-                <a href="#">Newsletter</a>
-                <a href="#">Subscribe</a>
-              </div>
-    
-            </div>
-          </div>
-        </div>
-    </div> 
-    
-  -->
-
-    
+  
 
     <!-- FIM  MENU LATERAL  -->
 
     <!-- NAV JEANS -->
+
     <div class="div2">
+
+        <nav class="mobile-nav">
+          <h2 class="logo-mobile">LOGO</h2>
+          <button type="button" id="button"  onclick="handleClick()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+      
       <div class="navbar">
         <h4>Jeans</h4>
         <div class="icons">
@@ -107,6 +74,7 @@
           <i class="material-symbols-outlined">shopping_cart</i>
         </div>
       </div>
+
 
       <!--  FIM NAV JEANS -->
 

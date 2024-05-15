@@ -12,3 +12,12 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }
+
+
+const button = document.getElementById('button');
+const menu = document.querySelector('.menu-lateral');
+
+function handleClick() {
+  button.classList.toggle('active');
+  menu.classList.toggle('menu-open');
+}
